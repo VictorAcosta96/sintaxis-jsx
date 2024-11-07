@@ -1,8 +1,13 @@
+const title = 'Interpolacion de variables';
+const paragraph = 'En jsx';
+
 const App = () => {
 	return (
-		<div>
-			<h1>Curso de react.</h1>
-		</div>
+		<>
+			<h1>Titulo: {title} </h1>
+			<p> {paragraph} </p>
+			<img src='/assets/images/vite.svg' alt='logo' />
+		</>
 	);
 };
 
